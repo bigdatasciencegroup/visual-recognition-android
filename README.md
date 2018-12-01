@@ -33,7 +33,7 @@ When you have completed this code pattern, you will understand how to:
 
 The application allows you to perform Visual Recognition on user-selected images. You can take a photo from the application or select a photo from your gallery to start the Visual Recognition process. Tap the Tags to see the certainty score for the image.
 
-> **Note:** If you have probelems getting the camera to work properly, make sure you have accepted appropriate permissions and are using the most up to date version of Google Play Services. You will need to re-create an emulator to pick up updates after downloading.
+> **Note:** If you have problems getting the camera to work properly, make sure you have accepted appropriate permissions and are using the most up to date version of Google Play Services. You will need to re-create an emulator to pick up updates after downloading.
 
 ## License
 
