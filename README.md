@@ -22,14 +22,14 @@ When you have completed this code pattern, you will understand how to:
 1. [Configure service credentials](#2-configure-service-credentials)
 1. [Run](#3-run)
 
-## 1. Install development requirements
+### 1. Install development dependencies
 
 Ensure you have the following development tools installed:
 
 * [Android Studio](https://developer.android.com/studio/index.html)
 * [Gradle](https://gradle.org/gradle-download/)
 
-## 2. Configure service credentials
+### 2. Configure service credentials
 
 Open this project in Android Studio and perform a Gradle Sync.
 
@@ -37,15 +37,17 @@ Use the [IBM Cloud Catalog](https://console.bluemix.net/catalog/) to [create a V
 
 When the service has been created, navigate to the **Service credentials** tab, and create a **New credential ⊕** with the default options. Click **View credentials**. Edit `app/src/main/res/values/credentials.xml` in this project to configure your application with your own service credentials.
 
-## 3. Run
+### 3. Run
 
-* You can now build and run the application from Android Studio!
+You can now build and run the application from Android Studio.
 
 ![VisualRecognitionAndroid](README_Images/VisualRecognitionAndroid.png) ![VisualRecognitionAndroidClicked](README_Images/VisualRecognitionAndroidClicked.png)
 
 The application allows you to perform Visual Recognition on user-selected images. You can take a photo from the application or select a photo from your gallery to start the Visual Recognition process. Tap the Tags to see the certainty score for the image.
 
-> **Note:** If you have problems getting the camera to work properly, make sure you have accepted appropriate permissions and are using the most up to date version of Google Play Services. You will need to re-create an emulator to pick up updates after downloading.
+## Troubleshooting
+
+If you have problems getting the camera to work properly, make sure you have accepted appropriate permissions and are using the most up to date version of Google Play Services. You will need to re-create an emulator to pick up updates after downloading.
 
 ## License
 
