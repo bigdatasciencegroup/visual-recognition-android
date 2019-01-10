@@ -16,7 +16,7 @@ When you have completed this code pattern, you will understand how to:
 
 ## Steps
 
-> As an alternative to steps 1 & 2 below, you can [create this project as a starter kit](https://console.bluemix.net/developer/appservice/create-app?defaultDeploymentToolchain=&defaultLanguage=SPRING&env_id=ibm%3Ayp%3Aus-south&navMode=catalog&starterKit=827c8244-3d95-3fff-b2bd-0841b587d297) on IBM Cloud, which automatically provisions required services, and injects service credentials into a custom fork of this pattern. Then, you can skip directly to step 3 below.
+> As an alternative to steps 1 & 2 below, you can [create this project as a starter kit](https://cloud.ibm.com/developer/appservice/create-app?defaultDeploymentToolchain=&defaultLanguage=SPRING&env_id=ibm%3Ayp%3Aus-south&navMode=catalog&starterKit=827c8244-3d95-3fff-b2bd-0841b587d297) on IBM Cloud, which automatically provisions required services, and injects service credentials into a custom fork of this pattern. Then, you can skip directly to step 3 below.
 
 1. [Install development dependencies](#1-install-development-dependencies)
 1. [Configure service credentials](#2-configure-service-credentials)
@@ -26,14 +26,14 @@ When you have completed this code pattern, you will understand how to:
 
 Ensure you have the following development tools installed:
 
-* [Android Studio](https://developer.android.com/studio/index.html)
-* [Gradle](https://gradle.org/gradle-download/)
+* [Android Studio](https://developer.android.com/studio/)
+* [Gradle](https://gradle.org/install/)
 
 ### 2. Configure service credentials
 
 Open this project in Android Studio and perform a Gradle Sync.
 
-Use the [IBM Cloud Catalog](https://console.bluemix.net/catalog/) to [create a Visual Recognition service instance](https://console.bluemix.net/catalog/services/visual-recognition) on the Lite plan.
+Use the [IBM Cloud Catalog](https://cloud.ibm.com/catalog/) to [create a Visual Recognition service instance](https://cloud.ibm.com/catalog/services/visual-recognition) on the Lite plan.
 
 When the service has been created, navigate to the **Service credentials** tab, and create a **New credential ⊕** with the default options. Click **View credentials**. Edit `app/src/main/res/values/credentials.xml` in this project to configure your application with your own service credentials.
 
